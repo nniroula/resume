@@ -1,0 +1,264 @@
+%-------------------------
+% has 1 syntax error
+
+% Resume in Latex
+% credit:- Author : Jake Gutierrez Based off of: https://github.com/sb2nov/resume  License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+% \usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=red]{hyperref}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Nabin Niroula} \\ \vspace{1pt}
+    Denver, Colorado, USA \\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ 720-499-3220 ~ \href{mailto:x@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{nkbhaie2017@gmail.com}} ~ 
+    \href{https://linkedin.com/in//}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/nabin-niroula44}}  ~
+    \href{https://github.com/}{\raisebox{-0.2\height}\faGithub\ \underline{https://github.com/nniroula}}
+    \vspace{-8pt}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+     \small{\item{
+     {Certified Software Engineer and an AWS Certified Cloud Practitioner with 3+ years of experience in software development. Currently, seeking opportunities to contribute to a dynamic  software engineering or cloud practitioner team.}
+     }}
+    
+ \end{itemize}
+ \vspace{-16pt}
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Master of Science in Computer Science} {\textit{\textmd{University of Colorado Denver}} \quad \quad  \quad Aug. 2021 -- May 2024}
+      {}{}
+    \vspace*{-16pt}
+  \resumeSubHeadingListEnd
+
+%-----------CERTIFICATES-----------
+% \section{Certificates}
+%   \resumeSubHeadingListStart
+%     \resumeSubheading
+%       {Graduate Certificate: Software Engineering}{\textit{\textmd{University of Colorado Denver}} \quad \quad  Aug. 2022 -- Dec. 2023}
+%      {}{}
+%      \vspace*{-16pt}
+%     \resumeSubheading
+%       {AWS Cloud Practitioner}
+%       {\textit{\textmd{Primed Talent, UK}} ~ ~ ~ ~ \quad \quad \quad \quad  July 2023 -- Sep. 2023}
+%       {}{}
+%     \resumeSubHeadingListEnd
+%     \vspace*{-16pt}
+%     \vspace{-9pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+    % experience 1
+     \resumeSubheading
+      {Software Developer, Freelance}{Oct. 2022 -- Feb. 2023}
+      {Aurora Everest Cricket Club}{Aurora, CO}
+      \resumeItemListStart
+        \resumeItem{Utilized analytical problem solving skills to design, and develop API endpoints. Created front-end using JavaScript, ReactJS, HTML, and CSS. Developed back-end using NodeJS, ExpressJS, Node, JavaScript, PostgreSQL, and SQL. Deployed the app to the cloud. Wrote Unit, Integration, and end-to-end tests using Jest and React testing library.}
+        \resumeItem{Implemented an external API (Stripe API) for payment processing, and its UI for receiving user input.}
+        \resumeItem{Result: It benefited 25+ club members by providing ways for general users to search for players, games, and admins while admins can add, update, retrieve, or delete a game, player, or an admin. Users can make donations online.}
+    \resumeItemListEnd
+    
+    % experience 2
+     \resumeSubheading
+      {Java Developer Apprentice, Contract}{Oct. 2021 -- July 2022}
+      {Catalyte}{Baltimore, MD}
+      \resumeItemListStart
+        \resumeItem{Worked with Spring framework and Spring boot to convert legacy Java and JDBC code into Spring compatible format.}
+        \resumeItem{Collaborated with team members using Agile/Scrum methodologies utilizing Jira board. Contributed during daily stand ups and weekly backlog refinement meetings. Wrote Unit and Integration tests using JUnit and Mockito libraries.}
+        \resumeItem{Assisted in development of the front end of an Apparel store's web app writing quality code in JavaScript using ReactJS.}
+    \resumeItemListEnd
+    
+    % experience 3
+    \resumeSubheading
+      {Full Stack Web Developer Trainee}{Jan. 2021 -- Dec. 2022}
+      {Springboard}{San Francisco, CA}
+      \resumeItemListStart
+      \resumeItem{700+ hours of hands-on course material, with 1:1 industry expert mentor oversight, and completion of 4 in-depth portfolio projects. Mastered skills in front-end and back-end web development, databases, and data structures and algorithms.}
+    \resumeItemListEnd
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    % project 1
+      \resumeProjectHeading
+          {\textbf{Palindrome and Guess a Number Games} $|$ \emph{JavaScript, ReactJS, CSS3, HTML5}}{Feb. 2023 -- May 2023}
+          \resumeItemListStart
+            \resumeItem{Used analytical problem-solving skills to solve coding challenges as games and deployed to the Internet.}
+            
+            \resumeItem{Users can play a game of Palindrome to check if a word or phrase is a palindrome. With Guess a Number game, computer generates a random number, and a player has to figure it out. For each user input, it will provide a clue on what could be the best next move. When the game is over, it will display the total number of guesses taken and some feedback. User has an option to play it again.}
+        \resumeItemListEnd
+        \vspace{-13pt}
+    
+    % project 2
+      \resumeProjectHeading
+          {\textbf{Restaurants Finder Web App} $|$ \emph{Python, Flask, HTML, CSS, SQL, PostgreSQL}}{July 2022 -- Oct. 2022}
+          \resumeItemListStart
+            \resumeItem{Gathered software requirement specifications, produced pseudo code, and designed an app to search restaurants based on a city and the state. Implemented Object Oriented Programming concepts to develop and write API endpoints. Wrote tests (Unit and Integration) using Python testing library. Deployed the app to Heroku.}
+
+            \resumeItem{Invoked external API (Yelp Fusion API) for data sourcing and manipulated the data for the project’s need.}
+            
+            \resumeItem{Result: Users can sign up for accounts, update their profiles, and search for restaurants. Each search renders up to 12 restaurants. Users can get details about each restaurant and options to add it to and remove from favorite lists. \\ \textbf{Sites:} \color{blue}{\url{https://local-restaurants-finder.herokuapp.com}}
+            ~ ~ \url{https://github.com/nniroula/Food_Service_Finder}}
+          % \resumeItemListEnd
+          % \vspace{-13pt}
+
+           % project 3
+          % \resumeProjectHeading
+          % {\textbf{Transaction Management GUI} $|$ \emph{Java, Eclipse, JavaFX}}{Aug. 2023 - Dec. 2023}
+          % \resumeItemListStart
+          %   \resumeItem{Designed a sample banking transaction system using Java to simulate the common functions of using a bank account.}
+          %   \resumeItem{Used JavaFX to create a GUI that supports actions such as creating an account, deposit, withdraw, list all acounts, etc.}
+          %   \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          % \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+    \vspace{-16pt}
+
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+    \begin{itemize}[leftmargin=0.15in, label={}]
+    \vspace{-5pt}
+        \small{\item{
+         {Java, JSP, Servlet, JDBC, ORM, JPA, Spring, Spring Boot, Spring MVC, Spring JDBC, Spring Data JPA, Hibernate, Spring JPA, JavaScript, ExpressJS, NodeJS, ReactJS, Bootstrap, AngularJS, Jest, Python, Flask, SQL Alchemy, HTML, CSS, Linux, Jenkins, CI/CD, GitHub, Git, JUnit, Mockito, Scrum/Agile, Eclipse}
+        }}
+    \end{itemize}
+    \vspace{-16pt}
+
+%-----------EXTRACURRICULAR ACTIVITIES---------------
+\section{Leadership / Extracurricular}
+    \resumeSubHeadingListStart
+    \vspace{-4pt}
+        \resumeSubheading{Aurora Sporting Club}{May 2020 -- July 2023}{President}{Aurora, CO}
+            \resumeItemListStart
+             \vspace{4pt}
+                \resumeItem{Founded a sports club Aurora, Colorado in coordination with 7 founding members.}
+                \resumeItem{Oversaw a five-member executive board of advisors and conducted monthly meetings to ensure the overall well-being of the club.}
+                \resumeItem{Managed a team of over 20 players, leading them to participate in the inter-state cricket tournament in Harrisburg, PA (June 2022), Iowa (July 2023), and CTCL Division 2 (t20 and t16) leagues annually since 2021.}
+            \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+\end{document}
